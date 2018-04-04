@@ -1,0 +1,130 @@
+.customdiv
+{
+margin:3px;
+min-height:60px;
+background-color:rgb(184, 184, 148);
+text-align:center;
+font-size:large;
+}
+
+
+.customdivblock1
+{
+margin:3px;
+min-height:400px;
+min-width:500px;
+ border: 1px solid black;
+background-color:rgb(242, 242, 242);
+text-align:left;
+font-size:medium;
+float:left;
+}
+
+.customdivblock2
+{
+margin:3px;
+min-height:100px;
+max-height:400px;
+min-width:600px;
+ border: 1px solid black;
+background-color:rgb(242, 242, 242);
+text-align: center;
+font-size: medium;
+float:right;
+}
+
+
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:15%;    //Specify your width here
+}
+
+.btn-xl1 {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:18%;    //Specify your width here
+}
+
+
+.dropbtn {
+    background-color:#3366cc;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+   max-height:200px;
+}
+
+.dropdown-content {
+    display: none;
+    border:1px;
+    position: absolute;
+    background-color:#7094db;
+    min-width: 150px;
+   
+   z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+    max-height: 100px;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:#3366cc ;
+}
+
+
+
+
+
+input[type=text] {
+    width: 300px;
+    padding: 12px 20px;   
+    box-sizing: border-box;    
+    border: none;
+    margin-top:0px;
+    margin-right: 20px;
+    background-color: #d9d9d9;
+    color: black;
+}
+input[type=password] {
+    width: 300px;
+    padding: 12px 20px;   
+    box-sizing: border-box;    
+    border: none;
+    margin-top:0px;
+    margin-right: 20px;
+    background-color: #d9d9d9;
+    color: black;
+}
+.inner_1
+{
+float: left;
+}
+.inner_2
+{
+float: right;
+}
+
+
+
